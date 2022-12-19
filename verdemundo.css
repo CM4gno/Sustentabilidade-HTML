@@ -1,0 +1,170 @@
+body{
+    background-color: whitesmoke; 
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: "Nunito", sans-serif;
+  }
+  
+ 
+.navbar{
+    background-color:#51bd7a;
+  }
+
+.navbar .navbar-brand img {
+    padding: 0;
+    margin-top: -10px;
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.navbar a {
+    display: inline-block; 
+    color:white;  
+    padding: 11px 15px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color:#4d93bb;
+}
+
+.navbar a:active {
+    color: red;
+}
+
+.navbar i {
+    color:white;    
+    padding: 0px;
+    transition: 0.3s;
+}
+
+.navbar i:hover{
+    color:#4d93bb;
+}
+ 
+.navbar i:active {
+    color: red;
+}
+
+.card{
+    width: 200px;
+    height: 220px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.card img{
+    width: 80px;
+    margin: auto;
+}
+
+.card-body .card-text{
+    text-align: center;
+    font-weight: bold;
+    color: #51bd7a;
+}
+
+.jumbotron{
+    background-image: url("extensions/img/bgreciclado.png");
+    background-repeat: repeat;
+    border-radius: 10px;
+}
+
+.jumbotron h2, p{
+    text-align: center;
+}
+
+.list-group {
+    margin: auto;
+    padding: 10px;
+}
+
+.list-group .list-group-item {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.decomposicao h3{
+    font-weight: 700;
+}
+
+.decomposicao img{
+    float: right;
+}
+
+.quemsomos h4{
+    color: #51bd7a;
+}
+
+.logoreciclagem img{
+    margin-top: 50px;
+    width: 300px;
+}
+
+.footer img{
+    margin-top: 10px;
+    width: 100px;
+}
+  
+.footer p {
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    float: right;
+    text-align: right;
+  }
+
+.footer-info a{
+    color: #51bd7a;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footer-info a:hover{
+    color:#4d93bb;
+    text-decoration: none;
+}
+ 
+.footer-info a:active {
+    color: red;
+}
+
+.footer-complete{
+    background-color: #51bd7a;
+}
+
+.footer-final{
+    background-color: #51bd7a;
+    height: 50px;
+}
+
+.footer-final .copyright {
+    float: left;
+    font-size: 14px;
+    padding-top: 15px;
+    color: white;
+}
+
+.footer-final .copyright span{
+    transition: 0.3s;
+}
+
+.footer-final .copyright span:hover{
+    color:#4d93bb; 
+}
+  
+@media (max-width: 900px) {
+    .footer-final .copyright {
+        float: left;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 15px;
+    }
+}
